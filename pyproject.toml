@@ -1,0 +1,16 @@
+[project]
+name = "tutorial"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "ffmpeg<8",
+    "jupyterlab>=4.4.10",
+    "librosa>=0.11.0",
+    "matplotlib>=3.10.7",
+    "pywavelets>=1.9.0",
+    "speechpy>=2.4",
+    "torch>=2.9.0",
+    "torchcodec>=0.8.1",
+]

@@ -26,6 +26,13 @@ uv venv
 source ./venv/bin/activate
 ```
 
+Alternatively, you if you prefer *really* prefer conda you can run
+
+```
+conda create -n tutorial python=3.13 -y
+conda activate tutorial 
+pip install -r requirements.txt
+```
 ### 3. Run workshop notebook
 ```
 jupyter-lab

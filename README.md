@@ -13,7 +13,7 @@
 
 ### 1. Install `uv` (Recommended)
 
-`uv` is a fast Python package installer and resolver. Choose **one** of the following methods:
+`uv` is a fast Python package installer and resolver. **It is the recommended package mananger for this tutorial. Stability on conda or poet is not guaranteed.**
 ```bash
 curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
@@ -26,7 +26,7 @@ uv venv
 source ./venv/bin/activate
 ```
 
-Alternatively, you if you prefer *really* prefer conda you can run
+Alternatively (but not recommended), if you *really* prefer conda you can run:
 
 ```
 conda create -n tutorial python=3.13 -y
@@ -40,6 +40,6 @@ jupyter-lab
 Open the file TutorialBSN25.ipynb inside `jupyter-lab`.
 
 ### Errors with torchcodec
-Torchcoded may have some problems due to dependecies with ffmpeg7.
-Install ffmpeg7 following https://github.com/oop7/ffmpeg-install-guide
+`torchcodec` may have some problems due to dependecies with ffmpeg7.
+Install ffmpeg7 following https://github.com/oop7/ffmpeg-install-guide.
 

@@ -5,6 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "datasets>=4.4.0",
     "ffmpeg<8",
     "jupyterlab>=4.4.10",
     "librosa>=0.11.0",

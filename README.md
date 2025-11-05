@@ -24,6 +24,7 @@ In the directory of this repo run:
 ```
 uv venv
 source ./venv/bin/activate
+uv sync
 ```
 
 Alternatively (but not recommended), if you *really* prefer conda you can run:
@@ -35,6 +36,7 @@ pip install -r requirements.txt
 ```
 ### 3. Run workshop notebook
 ```
+export PYTHONPATH=$(pwd)
 jupyter-lab
 ```
 Open the file TutorialBSN25.ipynb inside `jupyter-lab`.
